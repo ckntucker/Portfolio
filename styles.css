@@ -107,7 +107,7 @@ img{
 }
 
 .body-grid{
-    max-width: 1024px;
+    max-width: 1624px;
     display: grid;
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
@@ -135,13 +135,25 @@ img{
         position: fixed;
         top: 3rem;
         right: -100%;
-        width: 80%;
+        width: 50%;
         height:100%;
         padding:2rem;
         background-color: #006994;
         transition: .5s;
 
     }
+    .home-title{
+        position: absolute;
+        right: 0;
+    }
+    .homeimage{
+        position: relative;
+        right: 0;
+        top: 20%;
+    }
+}
+.home-title{
+    right: 50%;
 }
 
 .nav-item{
@@ -209,8 +221,8 @@ img{
 }
 .homeimage{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    /* right: 0; */
+    /* bottom: 0; */
     width: 260px;
 }
 /*AboutME*/
@@ -283,6 +295,7 @@ img{
         height: 100vh;
     }
     .home-data{
+        right: 0;
         align-self: flex-end;
     }
     .home-social{
@@ -290,10 +303,12 @@ img{
         padding-bottom: 2.5rem;
         flex-direction: row;
         align-self: flex-end;
+        top: 14%;
     }
     .home-social-icon{
         margin-bottom: 0;
         margin-right:2rem;
+        top: 14%;
     }
     .homeimage{
         width:400px;
@@ -315,6 +330,15 @@ img{
     }
     .contact-container{
         justify-items: center;
+    }
+    .home-title{
+        position:absolute;
+        right:20%;
+        top: 17%;
+    }
+    .homeimage{
+        top: 17%;
+        left: 20%;
     }
    
 
