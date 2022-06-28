@@ -303,6 +303,7 @@ img{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         text-align: initial;
+        font-size: larger;
     }
     .aboutimage img{
         width: 300px;
