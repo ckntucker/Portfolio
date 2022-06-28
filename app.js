@@ -25,3 +25,13 @@ function linkRemove(){
 navLink.forEach(n=> n.addEventListener('click', linkRemove))
     
 
+// const sr=scrollReveal({
+//     origin:'top',
+//     distance:'80px',
+//     duration:2000,
+//     reset:true
+// })
+
+// sr.reveal('.home-title', {})
+// sr.reveal('.homeimage',{delay: 400})
+// sr.reveal('.home-social-icon', {i})

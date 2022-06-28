@@ -304,10 +304,17 @@ img{
         align-items: center;
         text-align: initial;
     }
+    .aboutimage img{
+        width: 300px;
+    }
     .projects-section{
-        grid-template-columns: repeat(2,1fr);
-        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
         text-align: center;
     }
+    .contact-container{
+        justify-items: center;
+    }
+   
 
 }
